@@ -1,5 +1,3 @@
-//modified deploy script that send LINK tokens to my WeatherDataFeed contract
-
 import { ethers } from "hardhat";
 
 async function main() {
