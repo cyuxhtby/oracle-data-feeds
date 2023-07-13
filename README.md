@@ -1,6 +1,20 @@
-# Sample Hardhat Project
+# Oracle Data Feeds
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+Oracle Data Feeds is a hardhat project dedicated to testing Chainlink Oracles.
+
+## Contents
+
+### Contracts
+
+The `contracts/` directory contains the smart contracts for the project. 
+
+### Scripts
+
+The `scripts/` directory contains deployment scripts.
+
+### Tests
+
+The `test/` directory contains test files for the contracts.
 
 Try running some of the following tasks:
 
@@ -9,5 +23,10 @@ npx hardhat help
 npx hardhat test
 REPORT_GAS=true npx hardhat test
 npx hardhat node
-npx hardhat run scripts/deploy.ts
+npx hardhat run scripts/deploy-weatherDataFeed.ts
 ```
+
+## Contributing
+
+Feel free to contribute to this project by submitting pull requests or raising issues.
+
